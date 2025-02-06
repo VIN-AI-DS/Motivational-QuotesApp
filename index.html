@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daily Motivation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Daily Motivation</h1>
+
+    <div class="mood-selector">
+      <label for="mood">Select your mood:</label>
+      <select id="mood">
+        <option value="">Select Mood</option>
+        <option value="happy">Happy 😊</option>
+        <option value="motivated">Motivated 🚀</option>
+        <option value="optimistic">Optimistic 🌈</option>
+        <option value="stressed">Stressed 😟</option>
+        <option value="nervous">Nervous 😰</option>
+        <option value="angry">Angry 😡</option>
+        <option value="sad">Sad 😢</option>
+        <option value="depressed">Depressed 💔</option>
+      </select>
+    </div>
+
+    <div id="background" class="background"></div>
+    
+    <div id="quoteDisplay" class="quote-display">
+      <p>Choose your mood to get a motivational quote.</p>
+    </div>
+
+    <button id="newQuoteBtn" class="quote-btn">Get a New Quote</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
